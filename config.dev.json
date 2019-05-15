@@ -1,0 +1,22 @@
+{
+    "AppName":"app",
+    "Listen": ":8085",
+    "BasePath": "",
+    "Logger": {
+      "Debug": true,
+      "OutFile": true,
+      "LogPath":"d:\\git\\go-mvc-framework\\logs",
+      "MaxAge": 360, 
+      "RotationTime" : 1
+    },
+    "DataBase": {
+        "default": {
+            "DriverName": "mysql",
+            "DataSourceName": "root:jack1989@tcp(192.168.126.128:3306)/laravel_admin?charset=utf8&parseTime=True&loc=Local"
+        },
+        "market": {
+            "DriverName": "mysql",
+            "DataSourceName": "root:jack1989@tcp(192.168.126.128:3306)/kaikela_market?charset=utf8&parseTime=True&loc=Local"
+        }
+    }
+}
